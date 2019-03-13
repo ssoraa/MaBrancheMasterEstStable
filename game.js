@@ -6,7 +6,7 @@ fortnite.on("ready", () => {
 })
 
 fortnite.on("memberJoin", (players, game) => {
-  if(players.size === 100) {
+  if(game.players.size === 100) {
     game.start()
   }
 })
