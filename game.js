@@ -12,6 +12,6 @@ fortnite.on("memberJoin", (players, game) => {
 })
 
 fortnite.on("finalKill", (player, game) => {
-  player.send("GG, t'es le gagnant, le chomage est fier de toi pour t'être entraîner autant de temps à ce jeu")
+  player.send("GG, t'es le gagnant, le chomage est fier de toi pour t'être entraîné autant de temps à ce jeu")
   game.restart()
 })
